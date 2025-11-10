@@ -29,6 +29,28 @@ public class Drone {
     @Override
     public String toString() {
         return "{Price:"+price+"Speed:"+speed+"Range:"+range+"}";
+
     }
+
+
+    public boolean equals(Object obj) {
+        if (this == obj) {
+            return true;
+        }
+        if (obj instanceof Drone) {
+            Drone drone3 = (Drone) obj;
+            return this.price == drone3.price &&
+                    this.range == drone3.range &&
+                    this.speed.equals(drone3.speed) ;
+
+
+
+
+        }
+        return false;
+    }
+
+
+
 
 }

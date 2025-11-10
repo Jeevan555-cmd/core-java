@@ -12,13 +12,15 @@ public class DroneConstructor {
         System.out.println(drone.range);
         System.out.println(drone);
 
-       Drone drone1=new Drone("1hour",true);
-       System.out.println(drone1.battery);
-       System.out.println(drone1.isAvailable);
+       Drone drone1=new Drone(25000,"60 km/h",900l);
+
 
 
 
        Drone drone2=new Drone();
+
+
+       System.out.println(drone.equals(drone1));
 
 
 
