@@ -4,11 +4,11 @@ public class Pen {
 
         public String brand;
         public String color;
-        public double price;
+        public int price;
         public boolean isGel;
         public String material;
 
-        public Pen(String brand, String color, double price, boolean isGel, String material) {
+        public Pen(String brand, String color, int price, boolean isGel, String material) {
             this.brand = brand;
             this.color = color;
             this.price = price;
@@ -44,6 +44,13 @@ public class Pen {
             }
             return false;
         }
+    public int hashCode(){
+        int prime=7;
+        int result=1;
+        result=prime*result+price;
+        return  result;
+
+    }
 
 
 }

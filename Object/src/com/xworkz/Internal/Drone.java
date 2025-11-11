@@ -50,6 +50,16 @@ public class Drone {
         return false;
     }
 
+    public int hashCode(){
+        int prime=7;
+        int result=1;
+        result=prime*result +price;
+
+        return result;
+
+
+    }
+
 
 
 

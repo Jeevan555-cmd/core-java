@@ -13,7 +13,13 @@ public class CameraRunner {
             Camera c2 = new Camera("Canon", 24.2, 10, 45000.0, true);
             Camera c3 = new Camera();
             System.out.println(c1.equals(c2));
+
+
+            System.out.println(c1.hashCode());
+            System.out.println(c2.hashCode());
         }
+
+
 
 
 }
