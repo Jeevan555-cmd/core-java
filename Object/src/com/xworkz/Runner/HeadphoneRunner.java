@@ -13,6 +13,8 @@ public class HeadphoneRunner {
             Headphone h2 = new Headphone("Sony", true, 30, 12999.0, "Black");
             Headphone h3 = new Headphone();
             System.out.println(h1.equals(h2));
+            System.out.println(h1.hashCode());
+            System.out.println(h2.hashCode());
         }
     }
 

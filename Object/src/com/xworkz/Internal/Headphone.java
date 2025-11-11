@@ -44,6 +44,14 @@ public class Headphone {
             }
             return false;
         }
+        public int hashCode(){
+            int prime=7;
+            int result=1;
+            result=prime*result+batteryLife;
+            return  result;
+
+        }
+
 
 
 }

@@ -23,6 +23,6 @@ public class DroneConstructor {
        System.out.println(drone.equals(drone1));
 
 
-
+       System.out.println(drone.hashCode());
     }
     }
