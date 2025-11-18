@@ -33,7 +33,8 @@ public class Camera {
         }
 
         public boolean equals(Object obj) {
-            if (this == obj) return true;
+            if (this == obj) return
+                    true;
             if (obj instanceof Camera) {
                 Camera c = (Camera) obj;
                 return this.brand.equals(c.brand) &&
